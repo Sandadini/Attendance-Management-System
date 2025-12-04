@@ -1,0 +1,1764 @@
+INFO - 2025-02-21 03:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 03:56:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 03:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 03:56:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 249.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 254.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 261.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 271.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 24.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 40.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 32.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 45.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 16.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 51.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 03:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\GoogleLogin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 249.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 254.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 261.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 271.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 24.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 40.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 32.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 45.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 16.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 51.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 03:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 03:56:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\GoogleLogin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 03:56:39 --> [DEPRECATED] Creation of dynamic property Google\Service\Oauth2::$serviceName is deprecated in APPPATH\Libraries\vendor\google\apiclient-services\src\Oauth2.php on line 67.
+ 1 APPPATH\Controllers\GoogleLogin.php(42): Google\Service\Oauth2->__construct(Object(Google_Client))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GoogleLogin->callback()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GoogleLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 03:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 03:56:42 --> Lecturer Courses: Array
+(
+)
+
+INFO - 2025-02-21 07:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 07:39:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 07:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 07:40:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 07:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 07:40:08 --> Lecturer Courses: Array
+(
+    [0] => Array
+        (
+            [course_name] => Differential Equations II
+            [course_code] => AM 2011
+        )
+
+    [1] => Array
+        (
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+            [course_code] => PH 2005
+        )
+
+    [2] => Array
+        (
+            [course_name] => Analog and Digital Electronic Principles Laborator
+            [course_code] => PH 2022
+        )
+
+    [3] => Array
+        (
+            [course_name] => Computational Physics Laboratory - I
+            [course_code] => PH 3120
+        )
+
+)
+
+INFO - 2025-02-21 09:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:14:37 --> Fetching attendance for lecturer ID: 23
+INFO - 2025-02-21 09:14:37 --> Lecturer Attendance Query Result: [{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"8","total":"3"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"5","total":"4"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"2","total":"5"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"1","total":"4"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"3","total":"1"}]
+INFO - 2025-02-21 09:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:21:09 --> Fetching attendance for lecturer ID: 23
+INFO - 2025-02-21 09:21:09 --> Lecturer Attendance Query Result: [{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"8","total":"3"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"5","total":"4"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"2","total":"5"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"1","total":"4"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"3","total":"6"}]
+INFO - 2025-02-21 09:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 09:21:56 --> Lecturer Courses: Array
+(
+    [0] => Array
+        (
+            [course_name] => Differential Equations II
+            [course_code] => AM 2011
+        )
+
+    [1] => Array
+        (
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+            [course_code] => PH 2005
+        )
+
+    [2] => Array
+        (
+            [course_name] => Analog and Digital Electronic Principles Laborator
+            [course_code] => PH 2022
+        )
+
+    [3] => Array
+        (
+            [course_name] => Computational Physics Laboratory - I
+            [course_code] => PH 3120
+        )
+
+)
+
+INFO - 2025-02-21 09:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 09:22:31 --> Lecturer Courses: Array
+(
+    [0] => Array
+        (
+            [course_name] => Differential Equations II
+            [course_code] => AM 2011
+        )
+
+    [1] => Array
+        (
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+            [course_code] => PH 2005
+        )
+
+    [2] => Array
+        (
+            [course_name] => Analog and Digital Electronic Principles Laborator
+            [course_code] => PH 2022
+        )
+
+    [3] => Array
+        (
+            [course_name] => Computational Physics Laboratory - I
+            [course_code] => PH 3120
+        )
+
+)
+
+INFO - 2025-02-21 09:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 09:23:36 --> Lecturer Courses: Array
+(
+    [0] => Array
+        (
+            [course_name] => Differential Equations II
+            [course_code] => AM 2011
+        )
+
+    [1] => Array
+        (
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+            [course_code] => PH 2005
+        )
+
+    [2] => Array
+        (
+            [course_name] => Analog and Digital Electronic Principles Laborator
+            [course_code] => PH 2022
+        )
+
+    [3] => Array
+        (
+            [course_name] => Computational Physics Laboratory - I
+            [course_code] => PH 3120
+        )
+
+)
+
+INFO - 2025-02-21 09:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:23:41 --> Fetching attendance for lecturer ID: 23
+INFO - 2025-02-21 09:23:41 --> Lecturer Attendance Query Result: [{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"8","total":"3"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"5","total":"4"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"2","total":"5"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"1","total":"4"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"9","total":"2"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"7","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"3","total":"6"}]
+INFO - 2025-02-21 09:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:24:22 --> Fetching attendance for lecturer ID: 23
+INFO - 2025-02-21 09:24:22 --> Lecturer Attendance Query Result: [{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"8","total":"3"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"5","total":"4"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"2","total":"5"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"1","total":"4"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"10","total":"2"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"9","total":"3"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"7","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"3","total":"6"}]
+INFO - 2025-02-21 09:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:25:14 --> Fetching attendance for lecturer ID: 23
+INFO - 2025-02-21 09:25:14 --> Lecturer Attendance Query Result: [{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"8","total":"3"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"5","total":"4"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"2","total":"5"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"1","total":"4"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"10","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"9","total":"3"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"7","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"3","total":"6"}]
+INFO - 2025-02-21 09:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:25:21 --> Fetching attendance for lecturer ID: 23
+INFO - 2025-02-21 09:25:21 --> Lecturer Attendance Query Result: [{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"8","total":"3"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"5","total":"4"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"2","total":"5"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"1","total":"4"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"10","total":"6"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"9","total":"3"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"7","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"3","total":"6"}]
+INFO - 2025-02-21 09:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 09:26:44 --> Lecturer Courses: Array
+(
+    [0] => Array
+        (
+            [course_name] => Differential Equations II
+            [course_code] => AM 2011
+        )
+
+    [1] => Array
+        (
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+            [course_code] => PH 2005
+        )
+
+    [2] => Array
+        (
+            [course_name] => Analog and Digital Electronic Principles Laborator
+            [course_code] => PH 2022
+        )
+
+    [3] => Array
+        (
+            [course_name] => Computational Physics Laboratory - I
+            [course_code] => PH 3120
+        )
+
+)
+
+INFO - 2025-02-21 09:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 09:27:20 --> Lecturer Courses: Array
+(
+    [0] => Array
+        (
+            [course_name] => Differential Equations II
+            [course_code] => AM 2011
+        )
+
+    [1] => Array
+        (
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+            [course_code] => PH 2005
+        )
+
+    [2] => Array
+        (
+            [course_name] => Analog and Digital Electronic Principles Laborator
+            [course_code] => PH 2022
+        )
+
+    [3] => Array
+        (
+            [course_name] => Computational Physics Laboratory - I
+            [course_code] => PH 3120
+        )
+
+)
+
+INFO - 2025-02-21 09:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:27:48 --> Fetching attendance for lecturer ID: 23
+INFO - 2025-02-21 09:27:48 --> Lecturer Attendance Query Result: [{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"11","total":"11"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"8","total":"3"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"5","total":"4"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"2","total":"5"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"1","total":"4"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"10","total":"6"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"9","total":"3"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"7","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"3","total":"6"}]
+INFO - 2025-02-21 09:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 09:28:11 --> Lecturer Courses: Array
+(
+    [0] => Array
+        (
+            [course_name] => Differential Equations II
+            [course_code] => AM 2011
+        )
+
+    [1] => Array
+        (
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+            [course_code] => PH 2005
+        )
+
+    [2] => Array
+        (
+            [course_name] => Analog and Digital Electronic Principles Laborator
+            [course_code] => PH 2022
+        )
+
+    [3] => Array
+        (
+            [course_name] => Computational Physics Laboratory - I
+            [course_code] => PH 3120
+        )
+
+)
+
+INFO - 2025-02-21 09:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 09:28:20 --> Lecturer Courses: Array
+(
+    [0] => Array
+        (
+            [course_name] => Differential Equations II
+            [course_code] => AM 2011
+        )
+
+    [1] => Array
+        (
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+            [course_code] => PH 2005
+        )
+
+    [2] => Array
+        (
+            [course_name] => Analog and Digital Electronic Principles Laborator
+            [course_code] => PH 2022
+        )
+
+    [3] => Array
+        (
+            [course_name] => Computational Physics Laboratory - I
+            [course_code] => PH 3120
+        )
+
+)
+
+INFO - 2025-02-21 09:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 09:28:22 --> Lecturer Courses: Array
+(
+    [0] => Array
+        (
+            [course_name] => Differential Equations II
+            [course_code] => AM 2011
+        )
+
+    [1] => Array
+        (
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+            [course_code] => PH 2005
+        )
+
+    [2] => Array
+        (
+            [course_name] => Analog and Digital Electronic Principles Laborator
+            [course_code] => PH 2022
+        )
+
+    [3] => Array
+        (
+            [course_name] => Computational Physics Laboratory - I
+            [course_code] => PH 3120
+        )
+
+)
+
+INFO - 2025-02-21 09:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:28:58 --> No role ID in session.
+INFO - 2025-02-21 09:28:58 --> No role ID in session.
+INFO - 2025-02-21 09:28:58 --> Came to this block: [{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"11","total":"12"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"8","total":"3"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"5","total":"4"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"2","total":"5"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"1","total":"4"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"10","total":"6"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"9","total":"3"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"7","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"3","total":"6"}]
+INFO - 2025-02-21 09:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 09:29:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:28 --> [DEPRECATED] Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 249.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:28 --> [DEPRECATED] Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 254.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:28 --> [DEPRECATED] Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 261.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:28 --> [DEPRECATED] Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 271.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:28 --> [DEPRECATED] Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 24.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:28 --> [DEPRECATED] Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 40.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:28 --> [DEPRECATED] Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 32.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:28 --> [DEPRECATED] Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 45.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:28 --> [DEPRECATED] Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 16.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:28 --> [DEPRECATED] Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 51.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 09:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 09:29:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\GoogleLogin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:30 --> [DEPRECATED] Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 249.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:30 --> [DEPRECATED] Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 254.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:30 --> [DEPRECATED] Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 261.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:30 --> [DEPRECATED] Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 271.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:30 --> [DEPRECATED] Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 24.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:30 --> [DEPRECATED] Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 40.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:30 --> [DEPRECATED] Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 32.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:30 --> [DEPRECATED] Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 45.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:30 --> [DEPRECATED] Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 16.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:30 --> [DEPRECATED] Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 51.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 09:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 09:29:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\GoogleLogin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 09:29:34 --> [DEPRECATED] Creation of dynamic property Google\Service\Oauth2::$serviceName is deprecated in APPPATH\Libraries\vendor\google\apiclient-services\src\Oauth2.php on line 67.
+ 1 APPPATH\Controllers\GoogleLogin.php(42): Google\Service\Oauth2->__construct(Object(Google_Client))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GoogleLogin->callback()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GoogleLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 09:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 09:29:38 --> Lecturer Courses: Array
+(
+)
+
+INFO - 2025-02-21 09:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:29:41 --> Came to this block: [{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"11","total":"13"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"8","total":"3"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"5","total":"4"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"2","total":"5"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"1","total":"4"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"10","total":"6"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"9","total":"3"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"7","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"3","total":"6"}]
+INFO - 2025-02-21 09:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 09:29:57 --> Lecturer Courses: Array
+(
+)
+
+INFO - 2025-02-21 09:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 09:30:01 --> Came to this block: [{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"11","total":"13"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"8","total":"3"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"5","total":"4"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"2","total":"5"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"1","total":"4"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"10","total":"6"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"9","total":"3"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"7","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"3","total":"6"}]
+INFO - 2025-02-21 10:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 10:06:32 --> Lecturer Courses: Array
+(
+    [0] => Array
+        (
+            [course_name] => Differential Equations II
+            [course_code] => AM 2011
+        )
+
+    [1] => Array
+        (
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+            [course_code] => PH 2005
+        )
+
+    [2] => Array
+        (
+            [course_name] => Analog and Digital Electronic Principles Laborator
+            [course_code] => PH 2022
+        )
+
+    [3] => Array
+        (
+            [course_name] => Computational Physics Laboratory - I
+            [course_code] => PH 3120
+        )
+
+)
+
+INFO - 2025-02-21 10:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:06:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:06:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:13:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:13:53 --> [DEPRECATED] Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 249.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:13:53 --> [DEPRECATED] Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 254.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:13:53 --> [DEPRECATED] Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 261.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:13:53 --> [DEPRECATED] Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 271.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:13:53 --> [DEPRECATED] Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 24.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:13:53 --> [DEPRECATED] Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 40.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:13:53 --> [DEPRECATED] Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 32.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:13:53 --> [DEPRECATED] Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 45.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:13:53 --> [DEPRECATED] Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 16.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:13:53 --> [DEPRECATED] Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 51.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:13:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\GoogleLogin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:14:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:14:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:14:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:14:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:20 --> [DEPRECATED] Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 249.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:20 --> [DEPRECATED] Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 254.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:20 --> [DEPRECATED] Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 261.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:20 --> [DEPRECATED] Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 271.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:20 --> [DEPRECATED] Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 24.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:20 --> [DEPRECATED] Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 40.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:20 --> [DEPRECATED] Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 32.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:20 --> [DEPRECATED] Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 45.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:20 --> [DEPRECATED] Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 16.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:20 --> [DEPRECATED] Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 51.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:14:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\GoogleLogin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:21 --> [DEPRECATED] Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 249.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:21 --> [DEPRECATED] Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 254.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:21 --> [DEPRECATED] Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 261.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:21 --> [DEPRECATED] Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Model.php on line 271.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Model.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Model.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Model')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Model', 'Google\\Model')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:21 --> [DEPRECATED] Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 24.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:21 --> [DEPRECATED] Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 40.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:21 --> [DEPRECATED] Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 32.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:21 --> [DEPRECATED] Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 45.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:21 --> [DEPRECATED] Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 16.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:21 --> [DEPRECATED] Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in APPPATH\Libraries\vendor\google\apiclient\src\Google\Collection.php on line 51.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient\\src\\Google\\Collection.php')
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient/src\\Google\\Collection.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Google_Collection')
+ 4 APPPATH\Libraries\vendor\google\apiclient-services\autoload.php(21): class_alias('Google_Collection', 'Google\\Collection')
+ 5 APPPATH\Libraries\vendor\composer\autoload_real.php(41): require('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\google\\apiclient-services\\autoload.php')
+ 6 APPPATH\Libraries\vendor\composer\autoload_real.php(45): {closure}('1f87db08236948d07391152dccb70f04', 'D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\composer/../google/apiclient-services/autoload.php')
+ 7 APPPATH\Libraries\vendor\autoload.php(25): ComposerAutoloaderInit770f7a45e3964107abb4198a4ba5b018::getLoader()
+ 8 APPPATH\Controllers\GoogleLogin.php(16): require_once('D:\\XAMPP\\htdocs\\attendance_system\\app\\Libraries\\vendor\\autoload.php')
+ 9 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\GoogleLogin->__construct()
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:14:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\GoogleLogin::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-21 10:14:22 --> [DEPRECATED] Creation of dynamic property Google\Service\Oauth2::$serviceName is deprecated in APPPATH\Libraries\vendor\google\apiclient-services\src\Oauth2.php on line 67.
+ 1 APPPATH\Controllers\GoogleLogin.php(42): Google\Service\Oauth2->__construct(Object(Google_Client))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GoogleLogin->callback()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GoogleLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 10:14:24 --> Lecturer Courses: Array
+(
+)
+
+INFO - 2025-02-21 10:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:14:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 10:14:42 --> Lecturer Courses: Array
+(
+    [0] => Array
+        (
+            [course_name] => Differential Equations II
+            [course_code] => AM 2011
+        )
+
+    [1] => Array
+        (
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+            [course_code] => PH 2005
+        )
+
+    [2] => Array
+        (
+            [course_name] => Analog and Digital Electronic Principles Laborator
+            [course_code] => PH 2022
+        )
+
+    [3] => Array
+        (
+            [course_name] => Computational Physics Laboratory - I
+            [course_code] => PH 3120
+        )
+
+)
+
+INFO - 2025-02-21 10:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 10:15:26 --> Courses: Array
+(
+    [0] => Array
+        (
+            [id] => 8
+            [lecturer_email] => lecturer@stu.cmb.ac.lk
+            [course_code] => AM 2011
+            [admin_user_id] => 0
+            [created_at] => 2025-02-09 10:53:10
+            [course_id] => 6
+            [course_name] => Differential Equations II
+        )
+
+    [1] => Array
+        (
+            [id] => 7
+            [lecturer_email] => lecturer@stu.cmb.ac.lk
+            [course_code] => PH 2005
+            [admin_user_id] => 23
+            [created_at] => 2025-02-09 10:53:38
+            [course_id] => 7
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+        )
+
+    [2] => Array
+        (
+            [id] => 19
+            [lecturer_email] => lecturer@stu.cmb.ac.lk
+            [course_code] => PH 2022
+            [admin_user_id] => 0
+            [created_at] => 2025-02-09 20:18:41
+            [course_id] => 8
+            [course_name] => Analog and Digital Electronic Principles Laborator
+        )
+
+    [3] => Array
+        (
+            [id] => 25
+            [lecturer_email] => lecturer@stu.cmb.ac.lk
+            [course_code] => PH 3120
+            [admin_user_id] => 0
+            [created_at] => 2025-02-09 20:19:19
+            [course_id] => 9
+            [course_name] => Computational Physics Laboratory - I
+        )
+
+)
+
+INFO - 2025-02-21 10:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-21 10:17:48 --> Lecturer Courses: Array
+(
+    [0] => Array
+        (
+            [course_name] => Differential Equations II
+            [course_code] => AM 2011
+        )
+
+    [1] => Array
+        (
+            [course_name] => Waves & Vibrations, Circuit Theory and Optics
+            [course_code] => PH 2005
+        )
+
+    [2] => Array
+        (
+            [course_name] => Analog and Digital Electronic Principles Laborator
+            [course_code] => PH 2022
+        )
+
+    [3] => Array
+        (
+            [course_name] => Computational Physics Laboratory - I
+            [course_code] => PH 3120
+        )
+
+)
+
+INFO - 2025-02-21 10:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:28:31 --> Fetching attendance for lecturer ID: 23
+INFO - 2025-02-21 10:28:31 --> Lecturer Attendance Query Result: [{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"11","total":"13"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"8","total":"3"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"5","total":"4"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"2","total":"5"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"1","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"10","total":"6"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"9","total":"3"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"7","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"3","total":"6"},{"course_name":"Computational Physics Laboratory - I","subject_code":"PH 3120","class_id":"13","total":"6"},{"course_name":"Computational Physics Laboratory - I","subject_code":"PH 3120","class_id":"12","total":"10"},{"course_name":"Computational Physics Laboratory - I","subject_code":"PH 3120","class_id":"16","total":"6"},{"course_name":"Computational Physics Laboratory - I","subject_code":"PH 3120","class_id":"15","total":"6"},{"course_name":"Computational Physics Laboratory - I","subject_code":"PH 3120","class_id":"14","total":"5"}]
+INFO - 2025-02-21 10:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:31:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\LecturerCoursesController::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:33:32 --> Came to this block: [{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"11","total":"13"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"8","total":"3"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"5","total":"4"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"2","total":"5"},{"course_name":"Differential Equations II","subject_code":"AM 2011","class_id":"1","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"10","total":"6"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"9","total":"3"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"7","total":"5"},{"course_name":"Waves & Vibrations, Circuit Theory and Optics","subject_code":"PH 2005","class_id":"3","total":"6"},{"course_name":"Computational Physics Laboratory - I","subject_code":"PH 3120","class_id":"13","total":"6"},{"course_name":"Computational Physics Laboratory - I","subject_code":"PH 3120","class_id":"12","total":"10"},{"course_name":"Computational Physics Laboratory - I","subject_code":"PH 3120","class_id":"16","total":"6"},{"course_name":"Computational Physics Laboratory - I","subject_code":"PH 3120","class_id":"15","total":"6"},{"course_name":"Computational Physics Laboratory - I","subject_code":"PH 3120","class_id":"14","total":"5"}]
+INFO - 2025-02-21 10:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-21 10:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:33:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CourseController::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:33:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CourseController::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:33:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\CourseController::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:34:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-21 10:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-21 10:34:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$session is deprecated in APPPATH\Controllers\BaseController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
